@@ -1,0 +1,67 @@
+
+
+
+
+.divaside1{
+    float: right;
+    border-radius: 10px;
+    width: 60%;
+    height: 50%;
+    padding: 10px;
+    text-align: right;
+    color:black;
+    font-size: large;
+
+}
+.divaside1 h1{
+    font-size: 50px;
+    color: rgb(46, 17, 126);
+}
+.divaside1 h2{
+    color: rgb(46, 17, 126);
+}
+.divaside2{
+    display: none;
+    float: right;
+    border-radius: 10px;
+    float: right;
+    width: 60%;
+    padding: 10px;
+
+    background-color:rgb(255, 240, 240); ;
+
+}
+.divaside2 ul li{
+    font-size: 150%;
+    text-align: right;
+
+}
+.aside-element{
+    background-image: url("../image/backgroung-aside.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1cm;
+}
+.btn {
+position: relative;
+display: flex;
+    text-decoration: none;
+    color: white;
+    background-color:rgb(46, 17, 126);
+    padding: 10px 20px;
+    border-radius: 10px;
+    top: 20px;
+     left: 20px;
+     position: fixed;
+     display: flex;
+    
+}
+.btn:hover {
+    background-color:rgb(95, 54, 245);
+}

@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../image/R.jfif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  }
+  .create-account-container {
+    width: 500px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.589);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 15px 15px 30px #ffffff,
+    -15px -15px 30px #ffffff;    margin-top: 50px;
+    padding: 20px;
+  }
+  .create-account-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .create-account-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .create-account-container input[type="text"],
+  .create-account-container input[type="email"],
+  .create-account-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  .create-account-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .create-account-container input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  .create-account-container input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #4267b2;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .create-account-container input[type="button"]:hover {
+    background-color: #345eb1;
+  }

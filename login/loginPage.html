@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <link rel="stylesheet" href="loginPage.css">
+
+</head>
+<body>
+  
+  <div class="login-container">
+    <h1>Login</h1>
+    <!--select type user -->
+    <select id="select">
+      <option value="">select Type</option>
+      <option value="Manager">Manager</option>
+      <option value="Employee">Employee</option>
+      <option value="User">User</option>
+    </select>
+    <div id="result" class="result"></div>
+
+
+
+    <form id="login-form">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+      <div id="inputError" style="color:red; font-weight:bold ;"></div>
+      <input type="submit" id="login" value="Login">
+    </form>
+    <a href="#">Forgot your password?</a><br>
+    <input type="button" value="Create Account">
+    <input type="button" id="back" value="Back to home">
+  </div>
+
+
+
+  <script src="loginPage.js"> </script>
+
+      </body>

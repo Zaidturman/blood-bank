@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* the start body style */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 100%;
+    font-family: 'Poppins',sans-serif;
+  
+}
+.clearfix{
+    clear:both;
+}
+ul{
+    list-style: none;
+}
+/* the end body style */
+/* start header */
+header{
+    flex-direction:row;
+    justify-content: space-between;
+   
+
+    align-items: center;
+
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    font-family: "Viga";
+    border: none;
+    position: fixed;
+    top:0;
+    left:0;
+    padding: 5px;
+}
+
+header .section1{
+    width: 10%;
+  }
+header .section2{
+    width: 50%;
+    margin-left: 10%;
+  }
+header .section3{
+    width: 30%;
+    margin-left: -50px;
+  }
+header .section4{
+    width: 10%;
+  }
+header.sticky{
+        display: flex;
+
+    
+    background:linear-gradient(
+        to top,
+        rgb(252, 171, 171),
+        rgb(255, 255, 255)
+        
+    ) ;
+
+}
+.sticky{
+    position:sticky;
+    top:0;
+    
+}
+header  .i1{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    
+   
+    
+}
+.i{
+    width: 30%;
+   
+}
+
+.login-btn{
+    width: 100px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 5%;
+}
+.login-btn:hover{
+    background-color: #45a049;
+}
+
+div nav {
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -50%;
+    width: 150%;
+    
+ 
+    
+ }
+ 
+ div nav .a{
+     position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 600px;
+   
+    transition: 0.6s;
+     font-size: 20px;
+     font-family: sans-serif;
+     text-transform: capitalize;
+     color:crimson;
+ 
+ 
+ }
+ 
+ .a::before{
+     content: ' ';
+     position:absolute;
+     right: 0;
+     height: 2px;
+     width: 0%;
+     background-color:black ;
+     bottom: -7px;
+     transition: 0.3s;
+ 
+ 
+ }
+ .a:hover{
+     color:rgb(170, 18, 48);
+     
+
+ }
+ .a:hover::before{
+     width: 100%;
+ } 
+
+
+ .searchinput{
+    
+    position:relative;
+    margin-left: 20%;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+   
+    
+}
+
+.searchbtn{
+    width: 80px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 1%;
+    
+}
+
+/* end the header style*/
+
+/* تنسيق الكونتينر الذي يحتوي على جميع السكشينات في الصفحة الرئيسيه */
+.content {
+    width: 100%;
+}
+/*start main*/
+.main{
+    width: 100%;
+    min-height: 80vh;
+     padding-right: 10px;
+     text-align: center;
+     margin-top:40px;
+     
+ }
+ .main img {
+    
+     width: 30%; 
+     height: 60%; 
+     margin-top: 5%;
+ 
+ }
+ .main div  {
+  
+     margin-right:10%;
+     margin-top: 10%;
+     float:right;
+ 
+ 
+ }
+ .main div  h1{
+    
+     font-size:300%;
+     text-align:right ;
+     color:crimson;
+     
+ 
+ 
+ }
+ .main div h3{
+     font-size:200%;
+     text-align:right ;
+ }
+ .divmain{
+    width:20%;
+    font-size: 10px;
+ }
+ /* start aside*/
+
+.aside{
+    width: 20%;
+    height:80vh;
+    background:linear-gradient(
+        to top,
+        rgb(255, 255, 255),
+        rgb(253, 165, 165)
+        ) ;  
+    color: black;
+    border: none;
+    
+    float: left;
+    margin-top: 60px;
+     
+    padding-top: 20px;
+    padding-bottom:30px;
+    text-align: right;
+    margin-left: 5px;
+    text-align: center;
+}
+.aside h3{
+    padding: 20px;
+    font-size: 20px;
+    
+}
+.asidebefore{
+    font-size:110%;
+    color:crimson;
+
+}
+/* end aside*/
+ /* end the main style*/
+
+/* end the contect style */
+
+ /* start up button style  */
+ .up{
+     position: fixed;
+     display: flex;
+     width: 50px;
+     height:50px;
+     top:90vh;
+     bottom: 20px;
+     right: 20px;
+     margin-left: 10px;
+     
+     border-radius:50%;
+     display: none;
+     
+    }
+    .up img{
+        width: 100%;
+        height:100%;
+        
+    }
+    
+    /* end up button style  */
+
+
+
+
+
+section {
+    width: 100%;
+}
+
+/* start page2 */
+.page2{ 
+      width: 100%;  
+        height: 100vh;
+
+    background:linear-gradient(
+        to top,
+        rgb(255, 255, 255),
+        rgb(255, 179, 179),
+        rgb(255, 255, 255)
+        
+    ) ;    
+    
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+.serv{
+    margin-right: 8%;
+    margin-top:95px;
+    text-align:center ;
+    direction: rtl;
+   
+}
+.serv p{
+    font-size:180%;
+    font-weight: bold;
+    text-align:right ;
+    direction: rtl;
+    padding-bottom:1rem;
+
+}
+.serv h1{
+    direction: rtl;
+    text-align:right ;
+
+}
+.cont{
+    margin-top:20px
+}
+.cont ul li .icon {
+    float:right;
+    
+}
+.cont ul:hover li{
+    opacity: 0.9;
+    filter: blur(1px)
+}
+.cont ul li:hover{
+    opacity: 1;
+    filter: blur(0px)
+}
+.page2 div h1{
+    font-size:300%;
+    color:crimson;
+    
+}
+
+
+.services{
+    font-size:200%;
+    text-align:right ;
+}
+.services1{
+    font-size:210%;
+    text-align:right ;
+    color:crimson;
+
+}
+/* end page 2 style */
+
+/* start page 3 style */
+.page3{
+    width: 100%;
+    height: 100vh; 
+    padding-top:3rem;
+    
+}
+ .row {
+  
+    width: 100%;
+display:inline-block;   
+padding: 0;
+text-align: right;
+   
+} 
+.row input {
+      width: 150px;
+    height: 30px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    background-clip: padding-box;
+    margin-left: 20px;
+    padding: 5px;
+}
+.row label {
+    cursor: default;
+    font-size: 20px;
+    text-align:right ;
+    direction: rtl;
+    padding-left: 10px;
+}
+.row .form-control {
+    width: 110px;
+    height: 30px;
+    margin-left: 20px;    
+    border-radius: 4px;
+    border: 1px solid black;
+    font-size: 15px;
+
+
+}
+ label{
+    cursor: default;
+    font-size: 20px;
+    text-align:right ;
+    direction: rtl;
+}
+input{
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.servp3{
+    margin-right: 20%;
+    margin-top:90px;
+    text-align:right ;
+}
+
+.form-control{
+  position:static;
+}
+
+
+.row .form-control-up{
+    height: 2rem;
+    line-height: 1.4rem;
+    padding-bottom: 29px;
+    padding-top: 2px;
+    font-size: 16px;
+    padding-right: 2px;
+    width: 220px;
+}
+/* end page 3 style*/
+
+/* start page 4 style*/
+.page4{
+    
+    background:linear-gradient(
+        to top,
+        rgb(255, 255, 255),
+        rgb(255, 179, 179),
+        rgb(255, 255, 255)
+    ) ;    
+    
+    /* justify-content: center;
+    align-items: center; */
+    padding-top:2rem;
+   padding-right: 15px;
+   direction: rtl;
+
+}
+.text{
+    text-align: right;
+}
+h1{
+    font-size:300%;
+    color:crimson;
+}
+.text p{
+   
+    margin-top:10px;
+    font-size: 200%;
+}
+
+ .contener {
+    font-size:150%;
+padding-right: 10px;
+display:inline-flex;
+ }
+ .contener div {
+    margin-left: 80px;
+    
+    direction:rtl;
+
+}
+
+.contener  input{
+    width: 300px;
+    height: 40px;
+    border: 2px solid rgb(170, 166, 166);
+    border-radius: 4px;
+    background-color: rgba(253, 245, 245, 0.877);
+    background-clip: padding-box;
+    text-align: right;
+    padding-right: 7px;
+}
+.non-bold-1 {
+    font-weight: 600;
+    color:crimson;
+}
+.page4 form .contener div{
+    display: inline;
+}
+.page4 form {
+    direction :rtl;
+    text-align: right;
+}
+.dona {
+    padding-right: 100px;
+}
+/* all submit button style  */
+.submit{
+
+    margin-top: 30px;
+    margin-right: 30px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: rgb(255, 59, 59);
+    color: white;
+    font-size: large;
+    border-radius: 20px;
+
+
+}
+.submit1{
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: rgb(255, 59, 59);
+    color: black;
+    font-size: large;
+    border-radius: 30px;
+    background: transparent;
+    border: 2px solid rgb(255, 0, 0);
+    box-shadow: 0 0 10px 0 rgb(255, 0, 0) inset , 
+                0 0 10px 4px rgb(255, 0, 0);
+                
+}
+/* end page 4 style */
+
+
+
+/* start footer  style */
+
+footer{
+    position:relative;
+    background-color: rgb(255, 246, 246);
+    color:black;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border-style: none;
+    border-color:  rgb(128, 128, 128)  ;
+}
+.textarea-fix {
+    width: 600px;
+}
+.rad {
+    width: 20px;
+    size: 0mm;
+    padding: 0;
+}
+.whatsapp-btn-container {
+    position: fixed;
+     display: flex;
+     width: 50px;
+     height:50px;
+     top:90vh;
+     bottom: 20px;
+     left: 20px;
+     margin-left: 10px;
+     margin-left: 10%;
+     
+    opacity: 0;
+    padding-right: 75rem;
+    padding-top: 10px;
+        animation: fade-up 1000ms forwards;
+    animation-delay: 1000ms;
+    
+}
+
+@keyframes fade-up {
+    100% {
+        bottom: 24px;
+        opacity: 1;
+    }
+}
+/* style the chat button watsapp*/
+.whatsapp-btn-container .whatsapp-btn {
+    font-size: 48px;
+    color: #25d366;
+    display: inline-block;
+    transition: all 400ms;
+}
+
+.whatsapp-btn-container .whatsapp-btn:hover {
+    transform: scale(1.2);
+}
+
+.whatsapp-btn-container span {
+    position: absolute;
+    top: 0;
+    left: 4px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: #075e54;
+    transform: rotateZ(20deg) translateX(10px);
+    opacity: 0;
+    transition: all 400ms;
+}
+
+.whatsapp-btn-container .whatsapp-btn:hover + span {
+    transform: rotateZ(0deg) translateX(0px);
+    opacity: 1;
+}
